@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=“da”> 
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS</title>
+<style>
+    .container {
+        display: flex; /* Gør at barn-elementer lægges vandret */}
+
+    .celle1 {
+        width: 515px;
+        height: 700px;
+        border: 2px solid indianred;
+        background-color: lightpink;
+        text-align: center;}
+
+    .celle2 { 
+    	width: 10px;
+        height: 100px;}
+    
+    .adopter {
+    position: fixed;       /* Fast på skærmen */
+    bottom: 110px;          /* Nederst */
+    right: 170px;           /* Højre side */
+    padding: 12px 18px;
+    border: 2px solid indianred;
+    background-color: lightpink;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;}
+</style>
+</head>
+<body>
+    <div class="container">
+
+    <div class="celle1"> <h1> Kat </h1>
+    <p> Katte billeder </p>
+    <img src="kat.jpeg" height="230" width="350">
+    <p> </p>
+    <img src="kat2.jpeg" height="230" width="350">  </div>
+
+    <div class="celle2"> </div>
+
+    <div class="celle1"> <h1> Hund </h1>
+    <p> Hunde billeder </p>
+    <img src="hund.jpeg" height="230" width="350">
+      <p> </p>
+    <img src="hundsort.jpeg" height="230" width="350"> </div>
+
+    <a href="https://www.dyrenesbeskyttelse.dk" class="adopter">Klik her for at adoptere</a>
+</div>
+</body>
+
+</html> 
